@@ -1,17 +1,42 @@
+# Assignments Instructions
+ 
+This file provides guidelines for creating, organizing, and maintaining homework assignments in the educational website project.
+ 
+## Structure
+- Each assignment should be placed in its own subfolder under `assignments/`.
+- Include a `README.md` for assignment description and instructions.
+- Provide starter code and any necessary data files.
+ 
+## Naming Conventions
+- Use descriptive folder and file names reflecting the assignment topic.
+ 
+## Content Guidelines
+- Ensure assignments are learning-focused and student-friendly.
+- Clearly state objectives, requirements, and expected outcomes.
+- Include difficulty level and prerequisites if applicable.
+ 
+## Maintenance
+ 
+*Edit this file to add more assignment-specific instructions as needed.*
+ 
+---
+applyTo: "assignments/**/*.md"
+---
+ 
 # Assignment Markdown Structure Guidelines
-
+ 
 All assignment markdown files should follow these guidelines:
-
+ 
 ## 1. Template Usage
-
-- Assignment markdown files must follow the structure in [`templates/assignment-template.md`](../../templates/assignment-template.md).
-- The assignment must be created as a `README.md` file
+ 
+- Assignment markdown files must follow the structure in [templates/assignment-template.md](../../templates/assignment-template.md).
+- The assignment must be created as a README.md file
 - Do not remove or skip required sections from the template.
-
+ 
 ## 2. Section Guidance
-
+ 
 The section headers should reflect the structure in the template, including the exact icon usage.
-
+ 
 - **Title**: Replace `[Assignment Title]` with a short, descriptive name (e.g., `Python Basics`, `Loops and Conditionals`, `Functions and Modules`).
 - **Objective**: Write 1-2 sentences summarizing what the student will learn or accomplish. Focus on the main skills or concepts.
 - **Tasks**: For each task:
@@ -19,5 +44,5 @@ The section headers should reflect the structure in the template, including the 
   - In the Description, clearly state what the student must do.
   - In Requirements, use bullet points to list the expected outcomes or features. Be specific and measurable
   - Provide example input/output in code blocks if helpful.
-
+ 
 Do not include extra sections unless explicitly specified.
